@@ -1,0 +1,1494 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.313rem;
+  position: relative;
+  font-weight: bold;
+  font-size: 1.65rem;
+  text-decoration: underline;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+  text-decoration-thickness: 4px;
+}
+.element.element--light-blue {
+  background-color: #a3c7d2;
+}
+.element.element--pink {
+  background-color: #ebc1d9;
+}
+.element.element--light-green {
+  background-color: #c1ebc0;
+}
+.element.element--blue {
+  background-color: #5ac2ea;
+}
+.element.element--lightest-blue {
+  background-color: #c0eaec;
+}
+.element.element--green {
+  background-color: #a1d24b;
+}
+.element.element--dark-green {
+  background-color: #4bd27d;
+}
+.element.element--purple {
+  background-color: #b9babc;
+}
+.element.element--yellow {
+  background-color: #e9da24;
+}
+.element.element--orange {
+  background-color: #eab37e;
+}
+.element.element--red {
+  background-color: #d14b50;
+}
+.element:nth-child(1) {
+  grid-area: a1;
+}
+.element:nth-child(1)::before {
+  content: "1";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(2) {
+  grid-area: a2;
+}
+.element:nth-child(2)::before {
+  content: "2";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(3) {
+  grid-area: a3;
+}
+.element:nth-child(3)::before {
+  content: "3";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(4) {
+  grid-area: a4;
+}
+.element:nth-child(4)::before {
+  content: "4";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(5) {
+  grid-area: a5;
+}
+.element:nth-child(5)::before {
+  content: "5";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(6) {
+  grid-area: a6;
+}
+.element:nth-child(6)::before {
+  content: "6";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(7) {
+  grid-area: a7;
+}
+.element:nth-child(7)::before {
+  content: "7";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(8) {
+  grid-area: a8;
+}
+.element:nth-child(8)::before {
+  content: "8";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(9) {
+  grid-area: a9;
+}
+.element:nth-child(9)::before {
+  content: "9";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(10) {
+  grid-area: a10;
+}
+.element:nth-child(10)::before {
+  content: "10";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(11) {
+  grid-area: a11;
+}
+.element:nth-child(11)::before {
+  content: "11";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(12) {
+  grid-area: a12;
+}
+.element:nth-child(12)::before {
+  content: "12";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(13) {
+  grid-area: a13;
+}
+.element:nth-child(13)::before {
+  content: "13";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(14) {
+  grid-area: a14;
+}
+.element:nth-child(14)::before {
+  content: "14";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(15) {
+  grid-area: a15;
+}
+.element:nth-child(15)::before {
+  content: "15";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(16) {
+  grid-area: a16;
+}
+.element:nth-child(16)::before {
+  content: "16";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(17) {
+  grid-area: a17;
+}
+.element:nth-child(17)::before {
+  content: "17";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(18) {
+  grid-area: a18;
+}
+.element:nth-child(18)::before {
+  content: "18";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(19) {
+  grid-area: a19;
+}
+.element:nth-child(19)::before {
+  content: "19";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(20) {
+  grid-area: a20;
+}
+.element:nth-child(20)::before {
+  content: "20";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(21) {
+  grid-area: a21;
+}
+.element:nth-child(21)::before {
+  content: "21";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(22) {
+  grid-area: a22;
+}
+.element:nth-child(22)::before {
+  content: "22";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(23) {
+  grid-area: a23;
+}
+.element:nth-child(23)::before {
+  content: "23";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(24) {
+  grid-area: a24;
+}
+.element:nth-child(24)::before {
+  content: "24";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(25) {
+  grid-area: a25;
+}
+.element:nth-child(25)::before {
+  content: "25";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(26) {
+  grid-area: a26;
+}
+.element:nth-child(26)::before {
+  content: "26";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(27) {
+  grid-area: a27;
+}
+.element:nth-child(27)::before {
+  content: "27";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(28) {
+  grid-area: a28;
+}
+.element:nth-child(28)::before {
+  content: "28";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(29) {
+  grid-area: a29;
+}
+.element:nth-child(29)::before {
+  content: "29";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(30) {
+  grid-area: a30;
+}
+.element:nth-child(30)::before {
+  content: "30";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(31) {
+  grid-area: a31;
+}
+.element:nth-child(31)::before {
+  content: "31";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(32) {
+  grid-area: a32;
+}
+.element:nth-child(32)::before {
+  content: "32";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(33) {
+  grid-area: a33;
+}
+.element:nth-child(33)::before {
+  content: "33";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(34) {
+  grid-area: a34;
+}
+.element:nth-child(34)::before {
+  content: "34";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(35) {
+  grid-area: a35;
+}
+.element:nth-child(35)::before {
+  content: "35";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(36) {
+  grid-area: a36;
+}
+.element:nth-child(36)::before {
+  content: "36";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(37) {
+  grid-area: a37;
+}
+.element:nth-child(37)::before {
+  content: "37";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(38) {
+  grid-area: a38;
+}
+.element:nth-child(38)::before {
+  content: "38";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(39) {
+  grid-area: a39;
+}
+.element:nth-child(39)::before {
+  content: "39";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(40) {
+  grid-area: a40;
+}
+.element:nth-child(40)::before {
+  content: "40";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(41) {
+  grid-area: a41;
+}
+.element:nth-child(41)::before {
+  content: "41";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(42) {
+  grid-area: a42;
+}
+.element:nth-child(42)::before {
+  content: "42";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(43) {
+  grid-area: a43;
+}
+.element:nth-child(43)::before {
+  content: "43";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(44) {
+  grid-area: a44;
+}
+.element:nth-child(44)::before {
+  content: "44";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(45) {
+  grid-area: a45;
+}
+.element:nth-child(45)::before {
+  content: "45";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(46) {
+  grid-area: a46;
+}
+.element:nth-child(46)::before {
+  content: "46";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(47) {
+  grid-area: a47;
+}
+.element:nth-child(47)::before {
+  content: "47";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(48) {
+  grid-area: a48;
+}
+.element:nth-child(48)::before {
+  content: "48";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(49) {
+  grid-area: a49;
+}
+.element:nth-child(49)::before {
+  content: "49";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(50) {
+  grid-area: a50;
+}
+.element:nth-child(50)::before {
+  content: "50";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(51) {
+  grid-area: a51;
+}
+.element:nth-child(51)::before {
+  content: "51";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(52) {
+  grid-area: a52;
+}
+.element:nth-child(52)::before {
+  content: "52";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(53) {
+  grid-area: a53;
+}
+.element:nth-child(53)::before {
+  content: "53";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(54) {
+  grid-area: a54;
+}
+.element:nth-child(54)::before {
+  content: "54";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(55) {
+  grid-area: a55;
+}
+.element:nth-child(55)::before {
+  content: "55";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(56) {
+  grid-area: a56;
+}
+.element:nth-child(56)::before {
+  content: "56";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(57) {
+  grid-area: a57;
+}
+.element:nth-child(57)::before {
+  content: "57";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(58) {
+  grid-area: a58;
+}
+.element:nth-child(58)::before {
+  content: "58";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(59) {
+  grid-area: a59;
+}
+.element:nth-child(59)::before {
+  content: "59";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(60) {
+  grid-area: a60;
+}
+.element:nth-child(60)::before {
+  content: "60";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(61) {
+  grid-area: a61;
+}
+.element:nth-child(61)::before {
+  content: "61";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(62) {
+  grid-area: a62;
+}
+.element:nth-child(62)::before {
+  content: "62";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(63) {
+  grid-area: a63;
+}
+.element:nth-child(63)::before {
+  content: "63";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(64) {
+  grid-area: a64;
+}
+.element:nth-child(64)::before {
+  content: "64";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(65) {
+  grid-area: a65;
+}
+.element:nth-child(65)::before {
+  content: "65";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(66) {
+  grid-area: a66;
+}
+.element:nth-child(66)::before {
+  content: "66";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(67) {
+  grid-area: a67;
+}
+.element:nth-child(67)::before {
+  content: "67";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(68) {
+  grid-area: a68;
+}
+.element:nth-child(68)::before {
+  content: "68";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(69) {
+  grid-area: a69;
+}
+.element:nth-child(69)::before {
+  content: "69";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(70) {
+  grid-area: a70;
+}
+.element:nth-child(70)::before {
+  content: "70";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(71) {
+  grid-area: a71;
+}
+.element:nth-child(71)::before {
+  content: "71";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(72) {
+  grid-area: a72;
+}
+.element:nth-child(72)::before {
+  content: "72";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(73) {
+  grid-area: a73;
+}
+.element:nth-child(73)::before {
+  content: "73";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(74) {
+  grid-area: a74;
+}
+.element:nth-child(74)::before {
+  content: "74";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(75) {
+  grid-area: a75;
+}
+.element:nth-child(75)::before {
+  content: "75";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(76) {
+  grid-area: a76;
+}
+.element:nth-child(76)::before {
+  content: "76";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(77) {
+  grid-area: a77;
+}
+.element:nth-child(77)::before {
+  content: "77";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(78) {
+  grid-area: a78;
+}
+.element:nth-child(78)::before {
+  content: "78";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(79) {
+  grid-area: a79;
+}
+.element:nth-child(79)::before {
+  content: "79";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(80) {
+  grid-area: a80;
+}
+.element:nth-child(80)::before {
+  content: "80";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(81) {
+  grid-area: a81;
+}
+.element:nth-child(81)::before {
+  content: "81";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(82) {
+  grid-area: a82;
+}
+.element:nth-child(82)::before {
+  content: "82";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(83) {
+  grid-area: a83;
+}
+.element:nth-child(83)::before {
+  content: "83";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(84) {
+  grid-area: a84;
+}
+.element:nth-child(84)::before {
+  content: "84";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(85) {
+  grid-area: a85;
+}
+.element:nth-child(85)::before {
+  content: "85";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(86) {
+  grid-area: a86;
+}
+.element:nth-child(86)::before {
+  content: "86";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(87) {
+  grid-area: a87;
+}
+.element:nth-child(87)::before {
+  content: "87";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(88) {
+  grid-area: a88;
+}
+.element:nth-child(88)::before {
+  content: "88";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(89) {
+  grid-area: a89;
+}
+.element:nth-child(89)::before {
+  content: "89";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(90) {
+  grid-area: a90;
+}
+.element:nth-child(90)::before {
+  content: "90";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(91) {
+  grid-area: a91;
+}
+.element:nth-child(91)::before {
+  content: "91";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(92) {
+  grid-area: a92;
+}
+.element:nth-child(92)::before {
+  content: "92";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(93) {
+  grid-area: a93;
+}
+.element:nth-child(93)::before {
+  content: "93";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(94) {
+  grid-area: a94;
+}
+.element:nth-child(94)::before {
+  content: "94";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(95) {
+  grid-area: a95;
+}
+.element:nth-child(95)::before {
+  content: "95";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(96) {
+  grid-area: a96;
+}
+.element:nth-child(96)::before {
+  content: "96";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(97) {
+  grid-area: a97;
+}
+.element:nth-child(97)::before {
+  content: "97";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(98) {
+  grid-area: a98;
+}
+.element:nth-child(98)::before {
+  content: "98";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(99) {
+  grid-area: a99;
+}
+.element:nth-child(99)::before {
+  content: "99";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(100) {
+  grid-area: a100;
+}
+.element:nth-child(100)::before {
+  content: "100";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(101) {
+  grid-area: a101;
+}
+.element:nth-child(101)::before {
+  content: "101";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(102) {
+  grid-area: a102;
+}
+.element:nth-child(102)::before {
+  content: "102";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(103) {
+  grid-area: a103;
+}
+.element:nth-child(103)::before {
+  content: "103";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(104) {
+  grid-area: a104;
+}
+.element:nth-child(104)::before {
+  content: "104";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(105) {
+  grid-area: a105;
+}
+.element:nth-child(105)::before {
+  content: "105";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(106) {
+  grid-area: a106;
+}
+.element:nth-child(106)::before {
+  content: "106";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(107) {
+  grid-area: a107;
+}
+.element:nth-child(107)::before {
+  content: "107";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(108) {
+  grid-area: a108;
+}
+.element:nth-child(108)::before {
+  content: "108";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(109) {
+  grid-area: a109;
+}
+.element:nth-child(109)::before {
+  content: "109";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(110) {
+  grid-area: a110;
+}
+.element:nth-child(110)::before {
+  content: "110";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(111) {
+  grid-area: a111;
+}
+.element:nth-child(111)::before {
+  content: "111";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(112) {
+  grid-area: a112;
+}
+.element:nth-child(112)::before {
+  content: "112";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(113) {
+  grid-area: a113;
+}
+.element:nth-child(113)::before {
+  content: "113";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(114) {
+  grid-area: a114;
+}
+.element:nth-child(114)::before {
+  content: "114";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(115) {
+  grid-area: a115;
+}
+.element:nth-child(115)::before {
+  content: "115";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(116) {
+  grid-area: a116;
+}
+.element:nth-child(116)::before {
+  content: "116";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(117) {
+  grid-area: a117;
+}
+.element:nth-child(117)::before {
+  content: "117";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.element:nth-child(118) {
+  grid-area: a118;
+}
+.element:nth-child(118)::before {
+  content: "118";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.313rem;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+
+.container {
+  display: grid;
+  grid-template: "a1 . . . . . . . . . . . . . . . . a2" 4.375rem "a3 a4 . . . . . . . . . . a5 a6 a7 a8 a9 a10" 4.375rem "a11 a12 . . . . . . . . . . a13 a14 a15 a16 a17 a18" 4.375rem "a19 a20 a21 a22 a23 a24 a25 a26 a27 a28 a29 a30 a31 a32 a33 a34 a35 a36" 4.375rem "a37 a38 a39 a40 a41 a42 a43 a44 a45 a46 a47 a48 a49 a50 a51 a52 a53 a54" 4.375rem "a55 a56 a57 a72 a73 a74 a75 a76 a77 a78 a79 a80 a81 a82 a83 a84 a85 a86" 4.375rem "a87 a88 a89 a104 a105 a106 a107 a108 a109 a110 a111 a112 a113 a114 a115 a116 a117 a118" 4.375rem ". . . a58 a59 a60 a61 a62 a63 a64 a65 a66 a67 a68 a69 a70 a71 ." 4.375rem ". . . a90 a91 a92 a93 a94 a95 a96 a97 a98 a99 a100 a101 a102 a103 ." 4.375rem;
+  grid-template-columns: repeat(18, 4.375rem);
+  gap: 0.625rem;
+}
+
+@font-face {
+  font-family: "Typo Round";
+  font-weight: normal;
+  src: url("../assets/fonts/Typo_Round_Regular.otf");
+}
+@font-face {
+  font-family: "Typo Round";
+  font-weight: bold;
+  src: url("../assets/fonts/Typo_Round_Bold.otf");
+}
+* {
+  font-family: "Typo Round", sans-serif;
+  color: black;
+}

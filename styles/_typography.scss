@@ -1,0 +1,18 @@
+@use "./variables" as *;
+
+@font-face {
+  font-family: "Typo Round";
+  font-weight: normal;
+  src: url("../assets/fonts/Typo_Round_Regular.otf");
+}
+
+@font-face {
+  font-family: "Typo Round";
+  font-weight: bold;
+  src: url("../assets/fonts/Typo_Round_Bold.otf");
+}
+
+* {
+  font-family: $font-family;
+  color: $color-text;
+}

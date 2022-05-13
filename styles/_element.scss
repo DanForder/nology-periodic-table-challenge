@@ -1,0 +1,28 @@
+@use "./mixins" as *;
+
+.element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.313rem;
+  position: relative;
+  font-weight: bold;
+  font-size: 1.65rem;
+  @include dotted-underline;
+  @include add-element-background(element);
+
+  @for $i from 1 through 118 {
+    &:nth-child(#{$i}) {
+      @include grid-area($i);
+      &::before {
+        content: "#{$i}";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin: 0.313rem;
+        font-weight: normal;
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

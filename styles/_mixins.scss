@@ -1,0 +1,58 @@
+@use "./variables" as *;
+
+@mixin dotted-underline($thickness: 4px) {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: $thickness;
+}
+
+@mixin grid-area($area) {
+  grid-area: a#{$area};
+}
+
+// adds the correct background color --modifier based on a inputted class
+@mixin add-element-background($class) {
+  &.#{$class}--light-blue {
+    background-color: $color-light-blue;
+  }
+
+  &.#{$class}--pink {
+    background-color: $color-pink;
+  }
+
+  &.#{$class}--light-green {
+    background-color: $color-light-green;
+  }
+
+  &.#{$class}--blue {
+    background-color: $color-blue;
+  }
+
+  &.#{$class}--lightest-blue {
+    background-color: $color-lightest-blue;
+  }
+
+  &.#{$class}--green {
+    background-color: $color-green;
+  }
+
+  &.#{$class}--dark-green {
+    background-color: $color-dark-green;
+  }
+
+  &.#{$class}--purple {
+    background-color: $color-purple;
+  }
+
+  &.#{$class}--yellow {
+    background-color: $color-yellow;
+  }
+
+  &.#{$class}--orange {
+    background-color: $color-orange;
+  }
+
+  &.#{$class}--red {
+    background-color: $color-red;
+  }
+}
