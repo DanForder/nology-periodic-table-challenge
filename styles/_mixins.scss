@@ -1,6 +1,6 @@
 @use "./variables" as *;
 
-@mixin dotted-underline($thickness: 4px) {
+@mixin dotted-underline($thickness: 0.25rem) {
   text-decoration: underline;
   text-decoration-style: dotted;
   text-decoration-thickness: $thickness;

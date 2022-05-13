@@ -19,7 +19,7 @@ body {
   text-decoration: underline;
   -webkit-text-decoration-style: dotted;
           text-decoration-style: dotted;
-  text-decoration-thickness: 4px;
+  text-decoration-thickness: 0.25rem;
 }
 .element.element--light-blue {
   background-color: #a3c7d2;
